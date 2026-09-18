@@ -29,7 +29,6 @@ source("02_eda.R")                  # churn rates by category and tenure band
 source("03_descriptive.R")          # descriptive statistics and outlier screening
 source("04_inference.R")            # H1 chi-square, H2 and H3 Welch t-tests
 source("05_logistic_regression.R")  # H4 logistic regression, AUC, sensitivity check
-source("06_figures.R")              # the six figures used in the report
 ```
 
 `set.seed(2026)` fixes every random operation, so the train/test split and all
@@ -69,7 +68,6 @@ Hosmer-Lemeshow p = .648. At the Youden-optimal threshold of 0.276 the model rea
 ├── 03_descriptive.R
 ├── 04_inference.R
 ├── 05_logistic_regression.R
-├── 06_figures.R
 ├── 105.Rproj
 └── README.md
 ```
